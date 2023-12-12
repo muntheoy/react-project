@@ -1,4 +1,5 @@
 import React from "react";
+import "./TopNavigationButton.css";
 
 interface ITopNavigationButton {
   text: string;
@@ -11,17 +12,10 @@ const TopNavigationButton: React.FC<ITopNavigationButton> = ({
   isActive,
   onClick,
 }) => {
-  const buttonStyle: React.CSSProperties = {
-    border: "none",
-    background: "none",
-    // cursor: "pointer",
-    fontSize: "18px", 
-    color: isActive ? "black" : "gray", 
-    fontFamily: isActive ? "MulishBold":"MulishRegular"
-  };
+  const buttonClassName = isActive ? "active" : "inactive";
 
   return (
-    <button style={buttonStyle} onClick={onClick}>
+    <button className={`button ${buttonClassName}`} onClick={onClick}>
       {text}
     </button>
   );
