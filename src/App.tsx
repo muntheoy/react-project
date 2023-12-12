@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'; // Импортируйте файл со стилями
 
 function App() {
+  const textStyle: React.CSSProperties = {
+    fontFamily: 'MulishRegular, sans-serif', // Используйте название шрифта, заданное в @font-face
+    fontSize: '48px', // Ваш размер шрифта
+     // Указывается в @font-face, но может быть переопределено здесь
+    
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p style={textStyle}>Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
     </div>
   );
 }
