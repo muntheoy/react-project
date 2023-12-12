@@ -1,0 +1,44 @@
+/* HeaderText.css */
+.my-component {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-items: flex-start;
+}
+
+.title {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 40px;
+    font-family: "MulishBold";
+    text-align: left;
+}
+
+.subtitle {
+    font-size: 21px;
+    color: #7D7987;
+    font-family: "MulishRegular";
+    text-align: left;
+}
+
+.button {
+    border-radius: 40px;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-family: "MulishBold";
+    background-color: #458ff6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #357bb7;
+}
