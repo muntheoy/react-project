@@ -1,0 +1,17 @@
+/* TopNavigationButton.css */
+.button {
+    border: none;
+    background: none;
+    font-size: 18px;
+  }
+  
+  .active {
+    color: black;
+    font-family: "MulishBold";
+  }
+  
+  .inactive {
+    color: gray;
+    font-family: "MulishRegular";
+  }
+  
