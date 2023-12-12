@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import TopNavigationButton from "./TopNavigationButton";
 
-interface ITopNavigationProps {}
+interface ITopNavigation {}
 
-const TopNavigation: React.FC<ITopNavigationProps> = () => {
+const TopNavigation: React.FC<ITopNavigation> = () => {
   const [activeIndex, setActiveIndex] = useState<number>(0);
 
   const handleButtonClick = (index: number) => {

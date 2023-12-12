@@ -1,0 +1,28 @@
+/* Logo.css */
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: #458ff6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 5px;
+    font-family: MulishBold;
+  }
+  
+  .text {
+    font-size: 24px;
+    margin-left: 10px;
+    font-family: MulishBold;
+    color: #233348; 
+  }
+  

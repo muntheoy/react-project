@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/App.css';   
-import TopNavigation from './components/TopNavigation';
+import Logo from './components/Logo';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <TopNavigation/>
+      <Logo letter={'T'} text={'HealthCare'}/>
     </div>
   );
 }
