@@ -4,6 +4,7 @@ import HeaderText from './components/HeaderText';
 import Header from './components/Header';
 import ServicesCard from './components/ServicesCard';
 import ServicesBlock from './components/ServicesBlock';
+import ServicesText from './components/ServicesText';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <ServicesBlock/>
+      <ServicesText/>
     </div>
   );
 }
