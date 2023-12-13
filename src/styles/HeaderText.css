@@ -1,9 +1,8 @@
-/* HeaderText.css */
 .my-component {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 30%;
+    width: 35%;
 }
 
 .text-container {

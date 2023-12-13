@@ -20,3 +20,4 @@ const HeaderText: React.FC<IHeaderText> = ({ title, subtitle, buttonText }) => {
 };
 
 export default HeaderText;
+
