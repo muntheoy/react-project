@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 10%;
+
+}
+
+.bottom-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-illustration{
+    width: 55%; 
+   
+}
+
+.img-element{
+    height: 10%;
+    width: 5%;
+    margin-top: 10%;
+}
+

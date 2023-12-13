@@ -1,5 +1,5 @@
 import React from "react";
-import "./TopNavigationButton.css";
+import "../styles/TopNavigationButton.css";
 
 interface ITopNavigationButton {
   text: string;
@@ -15,7 +15,7 @@ const TopNavigationButton: React.FC<ITopNavigationButton> = ({
   const buttonClassName = isActive ? "active" : "inactive";
 
   return (
-    <button className={`button ${buttonClassName}`} onClick={onClick}>
+    <button className={`navigation-button ${buttonClassName}`} onClick={onClick}>
       {text}
     </button>
   );
