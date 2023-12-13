@@ -1,5 +1,5 @@
 .ServicesCard {
-    width: 15%;
+    width: 20%;
     height: 230px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(229, 233, 246, 0.4);
@@ -8,6 +8,8 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
+    margin-bottom: 3%;
+    margin-right: 3%;
     
 }
 
