@@ -1,5 +1,7 @@
 .ServicesBlock {
     display: flex;
     flex-flow: row wrap;
-    
+    width: 75%;
+    margin: auto;
 }
+
