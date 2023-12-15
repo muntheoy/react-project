@@ -5,6 +5,8 @@ import Header from './components/Header';
 import ServicesCard from './components/ServicesCard';
 import ServicesBlock from './components/ServicesBlock';
 import ServicesText from './components/ServicesText';
+import Services from './components/Services';
+import LeadingHealthcare from './components/LeadingHealthcare';
 
 
 function App() {
@@ -12,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <ServicesText/>
+      <LeadingHealthcare/>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import ServicesCard from "./ServicesCard";
 import "../styles/ServicesBlock.css"
 
-const servicesData = [
+export const servicesData = [
   {
     icon: require("../assets/images/servis-card-icon-1.png"),
     title: 'Search doctor',
@@ -47,4 +47,3 @@ const ServicesContainer: React.FC = () => {
 };
 
 export default ServicesContainer;
-export{};
