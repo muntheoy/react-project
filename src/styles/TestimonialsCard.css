@@ -11,6 +11,48 @@
     
 }
 
+.TestimonialsCard-firstElement{
+  position: absolute;
+  top: -5%;
+  right: -5%;
+  height: 30%;
+}
+
+.TestimonialsCard-secondElement{
+  position: absolute;
+  bottom: 0;
+  left: -5%;
+  height: 30%;
+  z-index: -1;
+}
+
+.TestimonialsCard-header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 7%;
+
+}
+
+.TestimonialsCard-body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+}
+
+.TestimonialsCard-reviewer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.TestimonialsCard-reviewer-text{
+  display: flex;
+  flex-direction: column;
+}
+
 .TestimonialsCard-avatar{
   width: 120px; /* Регулируйте размер изображения по своему усмотрению */
   height: 120px; /* Установите высоту для создания круглой формы */

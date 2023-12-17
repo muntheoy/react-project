@@ -8,7 +8,7 @@ interface ITestimonialCard{
     comment: string;
 }
 
-const TestimonialsCard: React.FC<ITestimonialCard> = ({avatar: userAvatar, name, post, comment}) => {
+const TestimonialsCard: React.FC<ITestimonialCard> = ({avatar, name, post, comment}) => {
     const title = 'What our customer are saying'
     const firstElement = require('../assets/images/testimonials-card-element-1.png')
     const secondElement = require("../assets/images/testimonials-card-element-2.png")
@@ -23,7 +23,7 @@ const TestimonialsCard: React.FC<ITestimonialCard> = ({avatar: userAvatar, name,
 
             <div className="TestimonialsCard-body">
                 <div className="TestimonialsCard-reviewer">
-                    <img className="TestimonialsCard-avatar" src = {require(userAvatar) } alt={`Avatar of ${name}`}/>
+                    <img className="TestimonialsCard-avatar" src = {require(avatar) } alt={`Avatar of ${name}`}/>
                     <div className="TestimonialsCard-reviewer-text">
                         <span className="TestimonialsCard-name">{name}</span>
                         <span className="TestimonialsCard-post">{post}</span>

@@ -1,0 +1,68 @@
+.ArticlesCard{
+    width: 17%;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(229, 233, 246, 0.4);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2%;
+}
+
+.ArticlesCard-image{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  align-self: center;
+  
+  
+}
+
+.ArticlesCard-text-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+.ArticlesCard-button-text{
+  font-size: 17px;
+  line-height: 28px;
+  font-family: "MulishBold";
+  color: #4089ED;
+  font-weight: 600;
+}
+
+  .ArticlesCard-arrow-icon {
+    width: 20px; /* Установите желаемую ширину и высоту */
+    height: 20px;
+    margin-left: 5px; /* Регулируйте отступ между текстом и изображением стрелки */
+  }
+
+  .ArticlesCard-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 80%;
+    margin-bottom: 10%;
+  }
+  
+  .ArticlesCard-title{
+    font-size: 21px;
+    line-height: 32px;
+    font-family: "MulishBold";
+    margin-bottom: 3%;
+
+  }
+
+  .ArticlesCard-subtitle{
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "MulishRegular";
+    color: #7D7987;
+  }
