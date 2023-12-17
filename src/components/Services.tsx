@@ -5,16 +5,15 @@ import ServicesBlock from "./ServicesBlock";
 
 const Services: React.FC = () => {
     return(
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' , position: 'relative',}}>
+          <img src={require("../assets/images/services-illustration-1.png")} style={{ position: 'absolute', zIndex: '-1', width: '40%', top: '21%', left: '0'}} />
+          <img src={require("../assets/images/services-illustration-2.png")} style={{ width: '10%',position: 'absolute', zIndex: '-1', top: '50%', right: '20%' }} />
         <ServicesText />
-        <div style={{ display: 'flex', justifyContent: 'center'}}>
-          <div style={{ position: 'relative', zIndex: 1, display: 'flex', margin: 'auto'}}>
-            <ServicesBlock />
-          </div>
-          <div style={{zIndex: 0, display: 'flex', }}>
-            <img src={require("../assets/images/services-illustration-1.png")} style={{ width: '40%', position: 'fixed', left: '0%', top: '20%' }} />
-            <img src={require("../assets/images/services-illustration-2.png")} style={{ width: '10%', position: 'fixed', right: '0%' }} />
-          </div>
+        <div style={{ display: 'flex',}}>
+          
+          <ServicesBlock />
+          
+          
         </div>
       </div>
     )

@@ -3,5 +3,6 @@
     flex-flow: row wrap;
     width: 75%;
     margin: auto;
+    align-self: center;
 }
 
