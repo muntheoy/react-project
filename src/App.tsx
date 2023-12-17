@@ -1,12 +1,11 @@
 import React from 'react';
 import './styles/App.css';   
-import HeaderText from './components/HeaderText';
-import Header from './components/Header';
-import ServicesCard from './components/ServicesCard';
-import ServicesBlock from './components/ServicesBlock';
-import ServicesText from './components/ServicesText';
-import Services from './components/Services';
-import TestimonialsCard from './components/TestimonialsCard';
+import ArticlesCard from './components/ArticlesCars';
+
+
+
+
+
 
 
 function App() {
@@ -14,7 +13,9 @@ function App() {
 
   return (
     <div className="App">
-      
+      <ArticlesCard  title={'Disease detection, check up in the laboratory'} subtitle={'In this case, the role of the health laboratory is very important to doa disease detection...'} onClick={function (): void {
+        throw new Error('Function not implemented.');
+      } }/>
     </div>
   );
 }
