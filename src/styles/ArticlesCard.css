@@ -39,9 +39,9 @@
 }
 
   .ArticlesCard-arrow-icon {
-    width: 20px; /* Установите желаемую ширину и высоту */
+    width: 20px; 
     height: 20px;
-    margin-left: 5px; /* Регулируйте отступ между текстом и изображением стрелки */
+    margin-left: 5px; 
   }
 
   .ArticlesCard-text{
