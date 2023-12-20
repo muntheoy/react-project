@@ -1,0 +1,26 @@
+.Articles{
+    display: flex;
+    flex-direction: column;
+}
+
+.Articles-header{}
+
+.Articles-header-text{
+    font-size: 36px;
+    font-family: "MulishBold";
+    margin-bottom: 2%;
+}
+
+.Articles-header-line{
+    background-color: black;
+    height: 2px;
+    width: 3%;
+    align-self: center;
+}
+
+.Articles-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
+}

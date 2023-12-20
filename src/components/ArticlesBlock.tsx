@@ -26,8 +26,8 @@ const ArticlesBlock: React.FC<IArticlesBlock> = ({
 
   return (
     <div >
-      <img src={require("../assets/images/articles-element-1.png")} alt="" style={{position: 'absolute', zIndex: '-1', top: '-15%', right: '0'}}/>
-      <img src={require("../assets/images/articles-element-2.png")} alt="" style={{position: 'absolute', zIndex: '-1', top: '-5%', left: '12%', width: '10%'}}/>
+      <img src={require("../assets/images/articles-element-1.png")} alt="" style={{position: 'absolute', zIndex: '-1', top: '10%', right: '0'}}/>
+      <img src={require("../assets/images/articles-element-2.png")} alt="" style={{position: 'absolute', zIndex: '-1', top: '17%', left: '12%', width: '10%'}}/>
       <div className="ArticlesBlock">
         {mainArticles.map((article, index) => (
           <ArticlesCard key={index} {...article} />
@@ -41,7 +41,7 @@ const ArticlesBlock: React.FC<IArticlesBlock> = ({
         </div>
       )}
       <button className="ShowMoreButton" onClick={toggleShowMore}>
-        {showMore ? "Show Less" : "View all"}
+        {showMore ? "Hide" : "View all"}
       </button>
     </div>
   );
