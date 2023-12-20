@@ -4,56 +4,15 @@ import Footer from './components/Footer';
 import ServicesBlock from './components/ServicesBlock';
 import Services from './components/Services';
 import ArticlesBlock from './components/ArticlesBlock';
+import Articles from './components/Articles';
 
 function App() {
-  const exampleArticles = [
-    {
-      image: require("./assets/images/article-image.png"),
-      title: "Disease detection, check up in the laboratory",
-      subtitle: "In this case, the role of the health laboratory is very important to doa disease detection...",
-      onClick: () => console.log("Clicked on Article 1"),
-    },
-    {
-      image: require("./assets/images/article-image-2.png"),
-      title: "Herbal medicines that are safe for consumption",
-      subtitle: "Herbal medicine is very widely used at this time because of its very good for your health...",
-      onClick: () => console.log("Clicked on Article 2"),
-    },
-    {
-      image: require("./assets/images/article-image-3.png"),
-      title: "Natural care for healthy facial skin",
-      subtitle: "A healthy lifestyle should start from now and also for your skin health.There are some...",
-      onClick: () => console.log("Clicked on Article 2"),
-    },
-    // Add more articles as needed
-  ];
-
-  const exampleAdditionArticles = [
-    {
-      image: require("./assets/images/article-image.png"),
-      title: "Disease detection, check up in the laboratory",
-      subtitle: "In this case, the role of the health laboratory is very important to doa disease detection...",
-      onClick: () => console.log("Clicked on Article 1"),
-    },
-    {
-      image: require("./assets/images/article-image-2.png"),
-      title: "Herbal medicines that are safe for consumption",
-      subtitle: "Herbal medicine is very widely used at this time because of its very good for your health...",
-      onClick: () => console.log("Clicked on Article 2"),
-    },
-    {
-      image: require("./assets/images/article-image-3.png"),
-      title: "Natural care for healthy facial skin",
-      subtitle: "A healthy lifestyle should start from now and also for your skin health.There are some...",
-      onClick: () => console.log("Clicked on Article 2"),
-    },
-    // Add more articles as needed
-  ];
+  
 
 
   return (
     <div className="App">
-      <ArticlesBlock articles={exampleArticles} additionalArticles={exampleAdditionArticles} />
+      <Articles/>
     </div>
   );
 }
