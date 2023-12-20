@@ -2,13 +2,14 @@
     width: 17%;
     background-color: white;
     border-radius: 5%;
-    box-shadow: 0 4px 8px rgba(229, 233, 246, 0.4);
+    box-shadow: 0 20px 30px rgba(229, 233, 246, 0.3);
     position: relative;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 2%;
+    margin-right: 2%;
 }
 
 .ArticlesCard-image{
@@ -28,6 +29,7 @@
     border: none;
     cursor: pointer;
     font-size: 16px;
+    width: 70%;
   }
   
 .ArticlesCard-button-text{
@@ -36,12 +38,14 @@
   font-family: "MulishBold";
   color: #4089ED;
   font-weight: 600;
+  
 }
 
   .ArticlesCard-arrow-icon {
     width: 20px; 
-    height: 20px;
+    height: auto;
     margin-left: 5px; 
+    margin-left: 10%;
   }
 
   .ArticlesCard-text{
