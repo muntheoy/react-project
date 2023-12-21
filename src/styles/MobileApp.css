@@ -1,53 +1,54 @@
 .MobileApp{
     display: flex;
-    flex-direction: row;
-    width: 100%;
     align-items: center;
-    justify-content: center;
+    padding: 5%;
+    margin-bottom: 10%;
 }
 
 .MobileApp-img{
     width: 40%;
     height: auto;
-    margin-right: 10%;
+    justify-content: center;
+    margin-right: 5%;
+    
 }
 
 .MobileApp-right-side{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10%;
+    text-align: left;
+    margin-left: 15%;
+    align-items: center;
+    height: auto;
 }
 
 .MobileApp-button{
     background-color: white;
     color: #458FF6;
     border-radius: 30px;
-    border-color: #458FF6;
+    border: 2px solid #458FF6;
     padding: 2%;
     font-size: 18px;
     font-family: "MulishBold";
     width: 27%;
+    margin-top: 10%;
 }
 
 .MobileApp-text{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
     text-align: left;
+    width: 70%;
 }
 
 .MobileApp-text-title{
     font-size: 36px;
     font-family: "MulishBold";
     line-height: 56px;
-    margin-bottom: 5%;
 }
 
 .MobileApp-text-line{
     background-color: black;
     height: 2px;
-    width: 10%;
+    width: 15%;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .MobileApp-text-subtitle{
@@ -55,5 +56,4 @@
     font-family: "MulishRegular";
     line-height: 30px;
     color: #7D7987;
-    margin-bottom: 15%;
 }
