@@ -6,6 +6,7 @@ import Services from './components/Services';
 import ArticlesBlock from './components/ArticlesBlock';
 import Articles from './components/Articles';
 import LeadingHealthcare from './components/LeadingHealthcare';
+import MobileApp from './components/MobileApp';
 
 function App() {
   
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <LeadingHealthcare/>
+      <MobileApp/>
     </div>
   );
 }
