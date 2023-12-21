@@ -5,6 +5,7 @@ import ServicesBlock from './components/ServicesBlock';
 import Services from './components/Services';
 import ArticlesBlock from './components/ArticlesBlock';
 import Articles from './components/Articles';
+import LeadingHealthcare from './components/LeadingHealthcare';
 
 function App() {
   
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <Articles/>
+      <LeadingHealthcare/>
     </div>
   );
 }
