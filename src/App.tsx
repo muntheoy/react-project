@@ -7,6 +7,7 @@ import ArticlesBlock from './components/ArticlesBlock';
 import Articles from './components/Articles';
 import LeadingHealthcare from './components/LeadingHealthcare';
 import MobileApp from './components/MobileApp';
+import SiteScreen from './components/SiteScreen';
 
 function App() {
   
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <MobileApp/>
+      <SiteScreen/>
     </div>
   );
 }

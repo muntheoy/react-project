@@ -3,7 +3,7 @@
   padding: 16px;
   flex-direction: row;
   justify-content: center;
-  
+  position: relative;
 }
 
 .ShowMoreButton {

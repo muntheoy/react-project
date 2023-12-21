@@ -23,7 +23,7 @@ const TestimonialsCard: React.FC<ITestimonialCard> = ({avatar, name, post, comme
 
             <div className="TestimonialsCard-body">
                 <div className="TestimonialsCard-reviewer">
-                    <img className="TestimonialsCard-avatar" src = {require(avatar) } alt={`Avatar of ${name}`}/>
+                    <img className="TestimonialsCard-avatar" src = {avatar} alt={`Avatar of ${name}`}/>
                     <div className="TestimonialsCard-reviewer-text">
                         <span className="TestimonialsCard-name">{name}</span>
                         <span className="TestimonialsCard-post">{post}</span>

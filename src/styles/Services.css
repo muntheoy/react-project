@@ -1,0 +1,6 @@
+.Services-element-first{
+    position: absolute;
+    z-index: -1;
+    width: 40%;
+    margin-top: 20%;
+}
