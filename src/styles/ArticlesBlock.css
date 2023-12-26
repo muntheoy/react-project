@@ -7,15 +7,20 @@
 }
 
 .ShowMoreButton {
-  width: 12%;
   margin-top: 8px;
-  padding: 15px;
-  background-color: white;
-  border-color: #458FF6;
-  border-radius: 30px;
+  padding: 1% 5%;
+  border: 2px solid #458FF6;
+  border-radius: 40px;
   font-size: 18;
   font-family: "MulishBold";
   color: #458FF6;
+  cursor: pointer;
+  background-color: white;
+}
+
+.ShowMoreButton:hover {
+  background-color: #458FF6;
+  color: white;
 }
 
 .AdditionalArticles {

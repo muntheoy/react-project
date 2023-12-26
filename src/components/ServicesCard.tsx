@@ -1,17 +1,20 @@
 import React from "react";
-import "../styles/ServicesCard.css"
+import "../styles/ServicesCard.css";
 
-
-interface IServicesCard{
+interface IServicesCard {
   icon: string;
   title: string;
   subtitle: string;
 }
 
-export const ServicesCard:React.FC<IServicesCard> = ({icon, title, subtitle}) => {
+export const ServicesCard: React.FC<IServicesCard> = ({ icon, title, subtitle }) => {
+  const handleClick = () => {
+    console.log("Карточка кликнута!");
+  };
+
   return (
-    <div className="ServicesCard">
-      <img className="ServicesCard-icon" src = {icon} alt = "Services Card Icon"/>
+    <div className="ServicesCard" onClick={handleClick}>
+      <img className="ServicesCard-icon" src={icon} alt="Иконка карточки услуг" />
       <div className="ServicesCard-text">
         <span className="ServicesCard-title">{title}</span>
         <span className="ServicesCard-subtitle">{subtitle}</span>
@@ -21,4 +24,3 @@ export const ServicesCard:React.FC<IServicesCard> = ({icon, title, subtitle}) =>
 };
 
 export default ServicesCard;
-
