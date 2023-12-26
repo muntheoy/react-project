@@ -18,8 +18,11 @@ const NavigationSection: React.FC<{ title: string, items: string[] }> = ({ title
     const region = ["Indonesia", "Singapore", "Hongkong", "Canada"];
     const help = [" Help center", "Contact support", "Instractions", "How it works"];
     const footerElementFirst = require("../assets/images/footer-element-first.png");
-    const footerElementSecond = require("../assets/images/footer-element-second.png")
-  
+    const footerElementSecond = require("../assets/images/footer-element-second.png");
+    const footerFirstText = "HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone";
+    const footerSecondText = "©HealthCare PTY LTD 2023. All rights reserved";
+    const footerLogoText = "HealthCare";
+    const footerCircle = "T"
     return (
       <div className="Footer">
 
@@ -27,11 +30,11 @@ const NavigationSection: React.FC<{ title: string, items: string[] }> = ({ title
         <img className= "Footer-image-second" src={footerElementSecond}/>
         <div className="Footer-healthcare">
           <div className="Footer-logoContainer">
-            <div className="Footer-circle">T</div>
-            <span className="Footer-logo-text">HealthCare</span>
+            <div className="Footer-circle">{footerCircle}</div>
+            <span className="Footer-logo-text">{footerLogoText}</span>
           </div>
-          <span className="Footer-healthcare-first-text">HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone</span>
-          <span className="Footer-healthcare-second-text">©HealthCare PTY LTD 2023. All rights reserved</span>
+          <span className="Footer-healthcare-first-text">{footerFirstText}</span>
+          <span className="Footer-healthcare-second-text">{footerSecondText}</span>
         </div>
         
             <NavigationSection title="Company" items={company} />
