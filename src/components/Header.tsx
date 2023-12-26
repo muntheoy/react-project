@@ -8,19 +8,21 @@ import HeaderText from "./HeaderText";
 interface IHeader {};
 
 const Header: React.FC<IHeader> = () => {
+    const imgElement = require("../assets/images/element.png");
+    const imgIllustration = require("../assets/images/headerIllustration.png");
     return (
-        <div className="container">
-            <img className = "img-element" src={require("../assets/images/element.png")} alt = "Header Element" />
-            <div className="header">
-            <div className="top-header">
+        <div className="Header">
+            <img className = "Header-img-element" src={imgElement} alt = "Header Element" />
+            <div className="Header-content">
+            <div className="Header-content-top">
                 <Logo letter={"T"} text={"HealthCare"} />
                 <TopNavigation />
             </div>
-            <div className="bottom-header">
+            <div className="Header-content-bottom">
                 <HeaderText title={'Virtual healthcare for you'} subtitle={'Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone'} buttonText={'Consult today'} />
                 <img 
-                className = "img-illustration"
-                 src={require("../assets/images/headerIllustration.png")} 
+                className = "Header-img-illustration"
+                 src={imgIllustration} 
                  alt="Header Illustration"
                  
                   />

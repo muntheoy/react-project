@@ -1,11 +1,11 @@
-.container{
+.Header{
     display: flex;
     flex-direction: row;
     margin-top: 3%;
     
 }
 
-.header{
+.Header-content{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -14,7 +14,7 @@
     
 }
 
-.top-header {
+.Header-content-top {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -23,19 +23,19 @@
 
 }
 
-.bottom-header {
+.Header-content-bottom {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.img-illustration{
+.Header-img-illustration{
     width: 55%; 
    
 }
 
-.img-element{
+.Header-img-element{
     height: 10%;
     width: 5%;
     margin-top: 10%;

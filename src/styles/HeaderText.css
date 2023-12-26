@@ -1,35 +1,35 @@
-.my-component {
+.HeaderText {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 35%;
 }
 
-.text-container {
+.HeaderText-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 10%;
     align-items: flex-start;
 }
 
-.title {
+.HeaderText-container-title {
     font-size: 48px;
     color: #333;
-    margin-bottom: 40px;
+    margin-bottom: 10%;
     font-family: "MulishBold";
     text-align: left;
 }
 
-.subtitle {
+.HeaderText-container-subtitle {
     font-size: 21px;
     color: #7D7987;
     font-family: "MulishRegular";
     text-align: left;
 }
 
-.button {
+.HeaderText-container-button {
     border-radius: 40px;
-    padding: 20px 40px;
+    padding: 4% 9%;
     font-size: 18px;
     font-family: "MulishBold";
     background-color: #458ff6;

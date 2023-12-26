@@ -9,12 +9,12 @@ interface IHeaderText {
 
 const HeaderText: React.FC<IHeaderText> = ({ title, subtitle, buttonText }) => {
     return (
-        <div className="my-component">
-            <div className="text-container">
-                <span className="title">{title}</span>
-                <span className="subtitle">{subtitle}</span>
+        <div className="HeaderText">
+            <div className="HeaderText-container">
+                <span className="HeaderText-container-title">{title}</span>
+                <span className="HeaderText-container-subtitle">{subtitle}</span>
             </div>
-            <button className="button">{buttonText}</button>
+            <button className="HeaderText-container-button">{buttonText}</button>
         </div>
     );
 };
