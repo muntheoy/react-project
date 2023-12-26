@@ -1,11 +1,10 @@
-/* Logo.css */
-.logoContainer {
+.Logo {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
   
-  .circle {
+  .Logo-circle {
     width: 41px;
     height: 41px;
     border-radius: 50%;
@@ -21,7 +20,7 @@
   
 
   
-  .text {
+  .Logo-text {
     font-size: 24px;
     margin-left: 10px;
     font-family: MulishBold;
