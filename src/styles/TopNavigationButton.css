@@ -1,0 +1,18 @@
+.TopNavigationButton {
+    border: none;
+    background: none;
+    font-size: 18px;
+    margin-right: 5%;
+  }
+  
+  .TopNavigationButton-active {
+    color: var(--topNavigationButton-color);
+    font-family: "MulishBold";
+  }
+  
+  .TopNavigationButton-inactive {
+    color: var(--topNavigationButton-color);
+    opacity: 50%;
+    font-family: "MulishRegular";
+  }
+  

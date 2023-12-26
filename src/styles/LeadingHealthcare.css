@@ -1,0 +1,68 @@
+.LeadingHealthcare {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+
+.LeadingHealthcare-img {
+    width: 40%;
+    height: auto;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.LeadingHealthcare-right-side {
+    text-align: left;
+    margin-left: 10%;
+    align-items: center;
+    height: auto;
+}
+
+
+.LeadingHealthcare-button {
+    background-color: var(--main-white-color);
+    color: var(--castom-blue-color);
+    border-radius: 40px;
+    border: 2px solid var(--castom-blue-color);
+    padding: 2% 8%;
+    font-size: 18px;
+    font-family: "MulishBold";
+    cursor: pointer;
+    margin-top: 10%;
+    
+    
+}
+
+.LeadingHealthcare-button:hover {
+    background-color: var(--castom-blue-color);
+    color: var(--main-white-color);
+}
+
+.LeadingHealthcare-text {
+    text-align: left;
+    width: 70%;
+}
+
+.LeadingHealthcare-text-title {
+    font-size: 36px;
+    font-family: "MulishBold";
+    line-height: 56px;
+    
+}
+
+.LeadingHealthcare-text-line {
+    background-color: var(--main-black-color);
+    height: 2px;
+    width: 15%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.LeadingHealthcare-text-subtitle {
+    font-size: 18px;
+    font-family: "MulishRegular";
+    line-height: 30px;
+    color: var(--castom-gray-color);
+    
+}

@@ -1,0 +1,72 @@
+.MobileApp{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+
+.MobileApp-img-arrow{
+    width: 8%;
+}
+
+.MobileApp-img{
+    width: 40%;
+    height: auto;
+    justify-content: center;
+    margin-right: 5%;
+    
+}
+
+.MobileApp-right-side{
+    text-align: left;
+    margin-left: 15%;
+    align-items: center;
+    height: auto;
+}
+
+.MobileApp-button{
+    background-color: var(--main-white-color);
+    color: var( --castom-blue-color);
+    border-radius: 40px;
+    border: 2px solid var(--castom-blue-color);
+    padding: 2.5% 8%;
+    font-size: 18px;
+    font-family: "MulishBold";
+    margin-top: 10%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MobileApp-button:hover {
+    background-color: var( --castom-blue-color);
+    color: var(--main-white-color);
+}
+
+.MobileApp-text{
+    text-align: left;
+    width: 70%;
+}
+
+.MobileApp-text-title{
+    font-size: 36px;
+    font-family: "MulishBold";
+    line-height: 56px;
+}
+
+.MobileApp-text-line{
+    background-color: var(--main-black-color);
+    height: 2px;
+    width: 15%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.MobileApp-text-subtitle{
+    font-size: 18px;
+    font-family: "MulishRegular";
+    line-height: 30px;
+    color: var(--custom-gray-color);
+}

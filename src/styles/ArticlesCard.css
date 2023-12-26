@@ -1,0 +1,72 @@
+.ArticlesCard{
+    width: 17%;
+    background-color: var(--main-white-color);
+    border-radius: 5%;
+    box-shadow: 0 20px 30px var(--custom-articles-shadow-color);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2%;
+    margin-right: 2%;
+}
+
+.ArticlesCard-image{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  align-self: center;
+  
+  
+}
+
+.ArticlesCard-text-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 70%;
+  }
+  
+.ArticlesCard-button-text{
+  font-size: 17px;
+  line-height: 28px;
+  font-family: "MulishBold";
+  color: var(--custom-articles-button-text-color);
+  font-weight: 600;
+  
+}
+
+  .ArticlesCard-arrow-icon {
+    width: 20px; 
+    height: auto;
+    margin-left: 5px; 
+    margin-left: 10%;
+  }
+
+  .ArticlesCard-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 80%;
+    margin-bottom: 10%;
+  }
+  
+  .ArticlesCard-title{
+    font-size: 21px;
+    line-height: 32px;
+    font-family: "MulishBold";
+    margin-bottom: 3%;
+
+  }
+
+  .ArticlesCard-subtitle{
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "MulishRegular";
+    color: var(--custom-gray-color);  
+  }

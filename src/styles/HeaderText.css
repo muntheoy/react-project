@@ -1,0 +1,45 @@
+@import "../styles/colors.css";
+
+.HeaderText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 35%;
+}
+
+.HeaderText-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    align-items: flex-start;
+}
+
+.HeaderText-container-title {
+    font-size: 48px;
+    color: var(--main-black-color);
+    margin-bottom: 10%;
+    font-family: "MulishBold";
+    text-align: left;
+}
+
+.HeaderText-container-subtitle {
+    font-size: 21px;
+    color: var(--custom-gray-color);
+    font-family: "MulishRegular";
+    text-align: left;
+}
+
+.HeaderText-container-button {
+    border-radius: 40px;
+    padding: 4% 9%;
+    font-size: 18px;
+    font-family: "MulishBold";
+    background-color: var(--headerText-button-color);
+    color: var(--main-white-color);
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--headerText-button-hover-color);
+}

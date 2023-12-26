@@ -1,0 +1,45 @@
+
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    
+}
+
+.Header-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    
+}
+
+.Header-content-top {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 10%;
+
+}
+
+.Header-content-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header-img-illustration{
+    width: 55%; 
+   
+}
+
+.Header-img-element{
+    height: 10%;
+    width: 5%;
+    margin-top: 10%;
+}
+

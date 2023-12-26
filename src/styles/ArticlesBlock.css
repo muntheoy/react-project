@@ -1,0 +1,49 @@
+.ArticlesBlock {
+  display: flex;
+  padding: 16px;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+.ArticlesBlock-illustration-second{
+  position: absolute;
+  z-index: -1;
+  top: -5%;
+  left: 12%;
+  width: 10%;
+}
+
+.ArticlesBlock-illustration-first{
+  position: absolute;
+  z-index: -1;
+  top: -10%;
+  right: 0;
+}
+
+.ArticlesBlock-button {
+  margin-top: 2%;
+  padding: 1% 5%;
+  border: 2px solid var(--castom-blue-color);
+  border-radius: 40px;
+  font-size: 18;
+  font-family: "MulishBold";
+  color: var(--castom-blue-color);
+  cursor: pointer;
+  background-color: var(--main-white-color);
+}
+
+.ArticlesBlock-button:hover {
+  background-color: var(--castom-blue-color);
+  color: var(--main-white-color);
+}
+
+.ArticlesBlock-additionalArticles{
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+

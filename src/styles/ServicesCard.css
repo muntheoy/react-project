@@ -1,0 +1,42 @@
+.ServicesCard {
+    width: 20%;
+    height: 230px;
+    background-color: var(--main-white-color);
+    box-shadow: 0 20px 30px rgba(229, 233, 246, 0.3);
+    border-radius: 15px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    
+}
+
+.ServicesCard-icon {
+    width: auto;
+    height: 30%;
+    margin-bottom: 15%;
+    align-self: flex-start;
+}
+
+.ServicesCard-text {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ServicesCard-title {
+    font-size: 24px;
+    font-family: "MulishBold";
+    margin-bottom: 5%;
+}
+
+.ServicesCard-subtitle {
+    font-size: 16px;
+    font-family: "MulishRegular";
+    color: var(--custom-gray-color);
+    text-align: left;
+    line-height: 28px;
+}

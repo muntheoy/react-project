@@ -1,0 +1,29 @@
+.Logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .Logo-circle {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: var(--castom-blue-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-white-color);
+    font-size: 26px;
+    margin-bottom: 5px;
+    font-family: MulishBold;
+  }
+  
+
+  
+  .Logo-text {
+    font-size: 24px;
+    margin-left: 10px;
+    font-family: MulishBold;
+    color: var(--logo-text-color); 
+  }
+  
