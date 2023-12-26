@@ -24,23 +24,26 @@ const ArticlesBlock: React.FC<IArticlesBlock> = ({
     setShowMore(!showMore);
   };
 
+  const illustrationFirst = require("../assets/images/articles-element-1.png");
+  const illustrationSecond = require("../assets/images/articles-element-2.png");
+
   return (
     <div style={{position: 'relative'}}>
-      <img src={require("../assets/images/articles-element-1.png")} alt="" style={{position: 'absolute', zIndex: '-1', top: '-10%', right: '0'}}/>
-      <img src={require("../assets/images/articles-element-2.png")} alt="" style={{position: 'absolute', zIndex: '-1', top: '-5%', left: '12%', width: '10%'}}/>
+      <img className="ArticlesBlock-illustration-first" src={illustrationFirst} alt="" />
+      <img className="ArticlesBlock-illustration-second" src={illustrationSecond} alt="" />
       <div className="ArticlesBlock">
         {mainArticles.map((article, index) => (
           <ArticlesCard key={index} {...article} />
         ))}
       </div>
       {showMore && (
-        <div className="AdditionalArticles">
+        <div className="ArticlesBlock-additionalArticles">
           {additionalArticles.map((article, index) => (
             <ArticlesCard key={index} {...article} />
           ))}
         </div>
       )}
-      <button className="ShowMoreButton" onClick={toggleShowMore}>
+      <button className="ArticlesBlock-button" onClick={toggleShowMore}>
         {showMore ? "Hide" : "View all"}
       </button>
     </div>
