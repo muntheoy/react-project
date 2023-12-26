@@ -3,7 +3,7 @@ import "../styles/Articles.css";
 import ArticlesBlock from "./ArticlesBlock";
 
 const Articles: React.FC = () =>{
-
+    const articlesHeaderText = "Check out our latest article"
     const exampleArticles = [
         {
           image: require("../assets/images/article-image.png"),
@@ -23,7 +23,7 @@ const Articles: React.FC = () =>{
           subtitle: "A healthy lifestyle should start from now and also for your skin health.There are some...",
           onClick: () => console.log("Clicked on Article 2"),
         },
-        // Add more articles as needed
+        
       ];
     
       const exampleAdditionArticles = [
@@ -45,13 +45,13 @@ const Articles: React.FC = () =>{
           subtitle: "A healthy lifestyle should start from now and also for your skin health.There are some...",
           onClick: () => console.log("Clicked on Article 2"),
         },
-        // Add more articles as needed
+        
       ];
 
     return(
         <div className="Articles">
             <div className="Articles-header">
-                <span className="Articles-header-text">Check out our latest article</span>
+                <span className="Articles-header-text">{articlesHeaderText}</span>
                 <div className="Articles-header-line"></div>
             </div>
             <ArticlesBlock articles={exampleArticles} additionalArticles={exampleAdditionArticles}/>
