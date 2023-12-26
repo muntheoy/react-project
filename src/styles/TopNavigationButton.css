@@ -1,17 +1,16 @@
-
-.navigation-button {
+.TopNavigationButton {
     border: none;
     background: none;
     font-size: 18px;
     margin-right: 5%;
   }
   
-  .active {
+  .TopNavigationButton-active {
     color: #1F1534;
     font-family: "MulishBold";
   }
   
-  .inactive {
+  .TopNavigationButton-inactive {
     color: #1F1534;
     opacity: 50%;
     font-family: "MulishRegular";

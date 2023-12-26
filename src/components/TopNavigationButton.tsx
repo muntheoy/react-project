@@ -12,10 +12,10 @@ const TopNavigationButton: React.FC<ITopNavigationButton> = ({
   isActive,
   onClick,
 }) => {
-  const buttonClassName = isActive ? "active" : "inactive";
+  const buttonClassName = isActive ? "TopNavigationButton-active" : "TopNavigationButton-inactive";
 
   return (
-    <button className={`navigation-button ${buttonClassName}`} onClick={onClick}>
+    <button className={`TopNavigationButton ${buttonClassName}`} onClick={onClick}>
       {text}
     </button>
   );
