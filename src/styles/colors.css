@@ -1,0 +1,16 @@
+:root{
+    --castom-blue-color: #458FF6;
+    --main-white-color: white;
+    --main-black-color: black;
+    --custom-gray-color: #7D7987;
+    --custom-articles-shadow-color: #E5E9F6;
+    --custom-articles-button-text-color: #4089ED;
+    --footer-gradient-color-first: #5A98F2;
+    --footer-gradient-color-second: #67C3F3;
+    --footer-circle-color: #5B9BF3;
+    --headerText-button-color:#458ff6;
+    --headerText-button-hover-color: #357bb7;
+    --logo-text-color: #233348;
+    --topNavigationButton-color: #1F1534;
+    
+}

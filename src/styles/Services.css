@@ -25,10 +25,10 @@
 }
 
 .Services-button{
-    background-color: white;
-    color: #458FF6;
+    background-color: var(--main-white-color);
+    color: var(--castom-blue-color);
     border-radius: 40px;
-    border: 2px solid #458FF6;
+    border: 2px solid var(--castom-blue-color);
     padding: 1% 4%;
     font-size: 18px;
     font-family: "MulishBold";
@@ -37,6 +37,6 @@
 }
 
 .Services-button:hover {
-    background-color: #458FF6;
-    color: white;
+    background-color: var(--castom-blue-color);
+    color: var(--main-white-color);
 }

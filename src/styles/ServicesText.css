@@ -14,7 +14,7 @@
 }
 
 .ServicesText-line{
-    background-color: black;
+    background-color: var(--main-black-color);
   width: 5%;
   height: 1.5px;
   margin-bottom: 3%;
@@ -23,6 +23,6 @@
 .ServicesText-subtitle{
     font-size: 18;
     font-family: "MulishRegular";
-    color: #7D7987;
+    color: var(--custom-gray-color);
     line-height: 30px;
 }

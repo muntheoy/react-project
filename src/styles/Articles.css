@@ -12,7 +12,7 @@
 }
 
 .Articles-header-line{
-    background-color: black;
+    background-color: var(--main-black-color);
     height: 2px;
     width: 3%;
     align-self: center;

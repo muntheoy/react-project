@@ -8,11 +8,11 @@
     width: 41px;
     height: 41px;
     border-radius: 50%;
-    background-color: #458ff6;
+    background-color: var(--castom-blue-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--main-white-color);
     font-size: 26px;
     margin-bottom: 5px;
     font-family: MulishBold;
@@ -24,6 +24,6 @@
     font-size: 24px;
     margin-left: 10px;
     font-family: MulishBold;
-    color: #233348; 
+    color: var(--logo-text-color); 
   }
   

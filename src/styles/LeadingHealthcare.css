@@ -21,10 +21,10 @@
 
 
 .LeadingHealthcare-button {
-    background-color: white;
-    color: #458FF6;
+    background-color: var(--main-white-color);
+    color: var(--castom-blue-color);
     border-radius: 40px;
-    border: 2px solid #458FF6;
+    border: 2px solid var(--castom-blue-color);
     padding: 2% 8%;
     font-size: 18px;
     font-family: "MulishBold";
@@ -35,8 +35,8 @@
 }
 
 .LeadingHealthcare-button:hover {
-    background-color: #458FF6;
-    color: white;
+    background-color: var(--castom-blue-color);
+    color: var(--main-white-color);
 }
 
 .LeadingHealthcare-text {
@@ -52,7 +52,7 @@
 }
 
 .LeadingHealthcare-text-line {
-    background-color: black;
+    background-color: var(--main-black-color);
     height: 2px;
     width: 15%;
     margin-bottom: 5%;
@@ -63,6 +63,6 @@
     font-size: 18px;
     font-family: "MulishRegular";
     line-height: 30px;
-    color: #7D7987;
+    color: var(--castom-gray-color);
     
 }

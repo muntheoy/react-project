@@ -1,7 +1,7 @@
 .ServicesCard {
     width: 20%;
     height: 230px;
-    background-color: #ffffff;
+    background-color: var(--main-white-color);
     box-shadow: 0 20px 30px rgba(229, 233, 246, 0.3);
     border-radius: 15px;
     padding: 35px;
@@ -36,7 +36,7 @@
 .ServicesCard-subtitle {
     font-size: 16px;
     font-family: "MulishRegular";
-    color: #7D7987;
+    color: var(--custom-gray-color);
     text-align: left;
     line-height: 28px;
 }

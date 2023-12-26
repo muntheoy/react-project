@@ -22,7 +22,7 @@
 
 .HeaderText-container-subtitle {
     font-size: 21px;
-    color: #7D7987;
+    color: var(--custom-gray-color);
     font-family: "MulishRegular";
     text-align: left;
 }
@@ -32,12 +32,12 @@
     padding: 4% 9%;
     font-size: 18px;
     font-family: "MulishBold";
-    background-color: #458ff6;
-    color: white;
+    background-color: var(--headerText-button-color);
+    color: var(--main-white-color);
     border: none;
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #357bb7;
+    background-color: var(--headerText-button-hover-color);
 }
