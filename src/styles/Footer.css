@@ -11,11 +11,18 @@
     width: 90%;
 }
 
-.Footer-image{
+.Footer-image-first{
     width: 7%;
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.Footer-image-second{
+    width: 7%;
+    position: absolute;
+    top: -13%;
+    right: 5%;
 }
 
 .Footer-healthcare{

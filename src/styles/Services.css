@@ -1,8 +1,27 @@
-.Services-element-first{
+.Services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 20%;
+}
+
+.Services-illustration-first{
     position: absolute;
     z-index: -1;
     width: 40%;
-    
+    top: 19%;
+    left: 0
+}
+
+.Services-illustration-second{
+    position: absolute;
+    z-index: -1;
+    width: 10%;
+    top: 50%;
+    right: 15%;
 }
 
 .Services-button{

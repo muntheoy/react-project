@@ -17,13 +17,14 @@ const NavigationSection: React.FC<{ title: string, items: string[] }> = ({ title
     const company = ["About", "Testimonials", "Find a doctor", "Apps"];
     const region = ["Indonesia", "Singapore", "Hongkong", "Canada"];
     const help = [" Help center", "Contact support", "Instractions", "How it works"];
-    const footerElementFirst = require("../assets/images/footer-element-first.png")
+    const footerElementFirst = require("../assets/images/footer-element-first.png");
+    const footerElementSecond = require("../assets/images/footer-element-second.png")
   
     return (
       <div className="Footer">
 
-        <img className= "Footer-image" src={footerElementFirst}/>
-
+        <img className= "Footer-image-first" src={footerElementFirst}/>
+        <img className= "Footer-image-second" src={footerElementSecond}/>
         <div className="Footer-healthcare">
           <div className="Footer-logoContainer">
             <div className="Footer-circle">T</div>
