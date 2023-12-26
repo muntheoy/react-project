@@ -14,7 +14,7 @@ export const ServicesCard: React.FC<IServicesCard> = ({ icon, title, subtitle })
 
   return (
     <div className="ServicesCard" onClick={handleClick}>
-      <img className="ServicesCard-icon" src={icon} alt="Иконка карточки услуг" />
+      <img className="ServicesCard-icon" src={icon} alt="" />
       <div className="ServicesCard-text">
         <span className="ServicesCard-title">{title}</span>
         <span className="ServicesCard-subtitle">{subtitle}</span>

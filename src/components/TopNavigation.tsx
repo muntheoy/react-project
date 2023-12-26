@@ -13,7 +13,7 @@ const TopNavigation: React.FC<ITopNavigation> = () => {
   const buttons = ['Home', 'Find a doctor', 'Apps', 'Testimonials', 'About us'];
 
   return (
-    <div style={{width:'50%'}}>
+    <div className="TopNavigation">
       {buttons.map((button, index) => (
         <TopNavigationButton
           key={index}
