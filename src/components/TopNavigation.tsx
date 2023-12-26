@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import TopNavigationButton from "./TopNavigationButton";
+import "../styles/TopNavigation.css"
 
 interface ITopNavigation {}
 

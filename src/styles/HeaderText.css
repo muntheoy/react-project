@@ -1,3 +1,5 @@
+@import "../styles/colors.css";
+
 .HeaderText {
     display: flex;
     flex-direction: column;
@@ -14,7 +16,7 @@
 
 .HeaderText-container-title {
     font-size: 48px;
-    color: #333;
+    color: var(--main-black-color);
     margin-bottom: 10%;
     font-family: "MulishBold";
     text-align: left;

@@ -3,15 +3,15 @@ import "../styles/Footer.css";
 
 
 const NavigationSection: React.FC<{ title: string, items: string[] }> = ({ title, items }) => (
-    <div className="Footer-array">
+  <div className="Footer-array">
       <span className="Footer-array-title">{title}</span>
       <div className="Footer-array-item">
-        {items.map((item, index) => (
-          <span key={index}>{item}</span>
-        ))}
+          {items.map((item, index) => (
+              <button key={index}>{item}</button>
+          ))}
       </div>
-    </div>
-  );
+  </div>
+);
   
   const Footer: React.FC = () => {
     const company = ["About", "Testimonials", "Find a doctor", "Apps"];
