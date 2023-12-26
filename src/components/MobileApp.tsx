@@ -15,7 +15,7 @@ const MobileApp: React.FC = () =>{
                 </div>
                 <button className="MobileApp-button">
                     <span>Download</span>
-                    <img src={require("../assets/images/app-arrow-img.png")} style={{width:'8%', marginLeft: '2%'}}/>
+                    <img src={require("../assets/images/app-arrow-img.png")} style={{width:'8%'}}/>
                     </button>
             </div>
             <img className="MobileApp-img" src={require("../assets/images/mobile-app-img.png")}/>
